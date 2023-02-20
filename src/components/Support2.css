@@ -1,0 +1,18 @@
+.card { 
+  display: flex;
+  max-width: 80%;
+  padding: 0.4rem;
+  border-radius: 0.8rem;
+  overflow-x: scroll;
+}
+.card1 {
+  background-color: aliceblue;
+  min-width: 20rem;
+  height: max-content;
+  margin: 0.2rem;
+  padding: 0.9rem;
+  border-radius: 0.8rem;
+}
+::-webkit-scrollbar {
+  display: none;
+}
